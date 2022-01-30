@@ -1,0 +1,355 @@
+/* 메인배너 */
+.mainbanner{
+  margin-top: -100px ;
+  width: 100%;
+  height: 940px;
+  background-color: #f9f9f9;
+}
+.mainbanner .container{
+  position: relative;
+}
+.mainbanner .textarea{
+  margin-left: 220px;
+  max-width: 38.6%;
+}
+.mainbanner .textarea h1{
+  margin: 0;
+  padding-top: 300px;
+}
+.mainbanner .textarea p{
+  padding-top: 60px;
+}
+.mainbanner .imagearea{
+  position: absolute;
+  max-width: 40%;
+  right: 8.9%;
+  top: 28%;
+}
+.mainbanner .imagearea img{
+  width:480px;
+}
+
+
+.deco-text{
+  text-shadow: -1px 0 #ccc, 0 1px #ccc, 1px 0 #ccc, 0 -1px #ccc;
+  color: #f9f9f9;
+}
+
+/* 2section오피셜내용 */
+.official{
+  margin-top: -100px ;
+  width: 100%;
+  height: 940px;
+  background-color: #f9f9f9;
+}
+.official .container{
+  position: relative;
+}
+.official .textarea{
+  padding-top: 270px;
+  margin-left: 220px;
+  max-width: 40%;
+}
+.official .textarea .tagline{
+  border-radius: 15px;
+  border: solid 1px #ccc;
+  width: 137px;
+  height: 30px;
+}
+.official .textarea .tagline p{
+  padding: 6px 20px 0px 20px;
+  line-height: 1;
+}
+.official .textarea h1{
+  margin: 0;
+  padding-top: 30px;
+}
+.official .textarea p{
+  padding-top: 60px;
+}
+.official .imagearea{
+  position: absolute;
+  max-width: 40%;
+  right: 8.9%;
+  top: 32%;
+}
+.official .imagearea img{
+  max-width:442px;
+}
+
+/* 3section영감내용 */
+.inspirite{
+  margin-top: -100px ;
+  width: 100%;
+  height: 940px;
+  background-color: #f9f9f9;
+}
+.inspirite .container{
+  position: relative;
+}
+.inspirite .textarea{
+  padding-top: 270px;
+  margin-left: 220px;
+  max-width: 40%;
+}
+.inspirite .textarea .tagline{
+  border-radius: 15px;
+  border: solid 1px #ccc;
+  width: 141px;
+  height: 30px;
+}
+.inspirite .textarea .tagline p{
+  padding: 6px 20px 0px 20px;
+  line-height: 1;
+}
+.inspirite .textarea h1{
+  margin: 0;
+  padding-top: 30px;
+}
+.inspirite .textarea p{
+  padding-top: 60px;
+}
+.inspirite .imagearea{
+  position: absolute;
+  max-width: 40%;
+  right: 8.9%;
+  top: 32%;
+}
+.inspirite .imagearea img{
+  max-width:442px;
+}
+
+
+
+/* 4section 연결내용 */
+.passion{
+  margin-top: -100px ;
+  width: 100%;
+  height: 940px;
+  background-color: #f9f9f9;
+}
+.passion .container{
+  position: relative;
+}
+.passion .textarea{
+  padding-top: 270px;
+  margin-left: 220px;
+  max-width: 40%;
+}
+.passion .textarea .tagline{
+  border-radius: 15px;
+  border: solid 1px #ccc;
+  width: 141px;
+  height: 30px;
+}
+.passion .textarea .tagline p{
+  padding: 6px 20px 0px 20px;
+  line-height: 1;
+}
+.passion .textarea h1{
+  margin: 0;
+  padding-top: 30px;
+}
+.passion .textarea p{
+  padding-top: 60px;
+}
+.passion .imagearea{
+  position: absolute;
+  max-width: 40%;
+  right: 8.9%;
+  top: 32%;
+}
+.passion .imagearea img{
+  max-width:442px;
+}
+
+
+/* 5section 연결내용 */
+.contact{
+  margin-top: -100px ;
+  width: 100%;
+  height: 940px;
+  background-color: #f9f9f9;
+}
+.contact .container{
+  position: relative;
+}
+.contact .textarea{
+  padding-top: 270px;
+  margin-left: 220px;
+  max-width: 40%;
+}
+.contact .textarea .tagline{
+  border-radius: 15px;
+  border: solid 1px #ccc;
+  width: 141px;
+  height: 30px;
+}
+.contact .textarea .tagline p{
+  padding: 6px 20px 0px 20px;
+  line-height: 1;
+}
+.contact .textarea h1{
+  margin: 0;
+  padding-top: 30px;
+}
+.contact .textarea p{
+  padding-top: 60px;
+}
+.contact .imagearea{
+  position: absolute;
+  max-width: 40%;
+  right: 8.9%;
+  top: 32%;
+}
+.contact .imagearea img{
+  max-width:442px;
+}
+
+
+/* 소개 */
+.about{
+  background-color: #fff;
+  height: 1130px;
+}
+.about .container{
+  position: relative;
+  margin-left: 220px;
+  background-color: #fff;
+}
+.about .tittlearea{
+  padding-top: 150px;
+  padding-bottom: 90px;
+}
+.about .imagearea {
+  position: absolute;
+  width: 40%;
+}
+.about .imagearea img{
+  width: 480px;
+  padding-bottom: 130px;
+}
+.about .bodyarea{
+  position: absolute;
+  width: auto;
+
+  left: 600px;
+}
+.about .bodyarea img{
+  padding-top: 60px;
+  width: 172px;
+}
+
+
+/* 포트폴리오 */
+.portfolio .container{
+  margin-left: 220px;
+  height: 1270px;
+}
+.portfolio .tittlearea{
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+.portfolio .imagearea .client-logo-slider a{
+  padding:2.5rem!important
+}
+.portfolio .bodyarea {
+  margin-top:100px;
+}
+.portfolio .bodyarea .row img {
+  max-width:380px;
+  margin-right: 120px;
+  margin-bottom: 30px;
+}
+.portfolio .bodyarea .dots{
+  left: 42.8%;
+  position: relative;
+}
+.portfolio .bodyarea .dots .dot{
+  position: absolute;
+  margin: 5px;
+  width: 8px;
+  height: 8px;
+  background-color: #ccc;
+  border-radius: 8px;
+  left: 5px;
+}
+
+
+/* 이력서 */
+.resume{
+  background-color: #fff;
+  height: 660px;
+}
+.resume .deco-text{
+  text-shadow: -1px 0 #ccc, 0 1px #ccc, 1px 0 #ccc, 0 -1px #ccc;
+  color: #fff;
+}
+.resume .container{
+  position: relative;
+  margin-left: 220px;
+  background-color: #fff;
+  padding-top:100px;
+}
+.resume .tittlearea{
+  width: 30%;
+  position: absolute;
+}
+.resume .line{
+  width: 1px;
+  height: 240px;
+  background-color: #ccc;
+  position: absolute;
+  left: 43.3%;
+}
+.resume .body{
+  width: 30%;
+  left: 48.5%;
+  position: absolute;
+}
+.resume .body .button{
+  width: 180px;
+  height: 50px;
+  border-radius: 25px;
+  border: solid 1px #656565;
+  margin-top: 50px;
+}
+.resume .body .button p{
+  line-height: 1;
+  text-decoration-line: none;
+  color: #656565;
+  padding: 14px 39px 14px 39px;
+}
+
+
+/* 푸터 */
+footer{
+  background-color: #333;
+  height: 373px;
+}
+footer .container{
+  padding-left: 220px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  position: relative;
+}
+footer .container .imagearea{
+  position: absolute;
+}
+footer .container .textarea{
+  position: absolute;
+  left: 40%;
+  text-decoration-line: none;
+}
+footer .container .textarea p,
+footer .container .textarea h1 {
+  color: #fff;
+  line-height: 2;
+  opacity: 80%;
+  font-weight: 200;
+
+}
+footer .container .textarea h1{
+  font-weight: 600;
+  text-decoration-line: none;
+}
