@@ -55,11 +55,15 @@ function scrollRotate() {
   // const image;
   // image = document.getElementById('deco-text1');
   const image = document.getElementById('deco-text1');
+  const image1 = document.getElementById('deco-text1-1');
   const image2 = document.getElementById('deco-text2');
+  const image2_2 = document.getElementById('deco-text2-2')
 
   console.log(window.pageYOffset);
   image.style.transform = "translateX(" + window.pageYOffset / 2 + "px)";
+  image1.style.transform = "translateX(" + (window.pageYOffset / 2 - 100) + "px)";
   image2.style.transform = "translateX(" + (window.pageYOffset / 2 - 3000) + "px)";
+  image2_2.style.transform = "translateX(" + window.pageYOffset / 200  + "px)";
 }
 
 
