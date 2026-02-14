@@ -10,7 +10,7 @@
   <!-- Metatags -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="description" content="웹디자인 포트폴리오">
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
   <meta name="author" content="juhae">
   <!-- favicon -->
   <link rel="shortcut icon" type="image/x-icon" href="images/common/favicon.png">
@@ -33,9 +33,9 @@
 
 
 <body>
-  <header include-html="header.html" id="header"></header>
+  <!-- <header include-html="header.html" id="header"></header> -->
   <!-- 헤더 -->
-  <!-- <header class="gnb">
+  <header class="gnb">
       <div class="header__inner container">
         <a href="index.html" class="logo">
           <img src="images/common/logo.png" alt="" class="logo-image">
@@ -46,10 +46,10 @@
         </a>
 
       </div>
-    </header> -->
+    </header>
 
   <!-- 메인배너 -->
-  <section class="mainbanner section">
+  <section class="mainbanner desktop">
     <div class="container">
       <div class="textarea">
         <h1 class="aos-item" data-aos="fade-down">
@@ -68,14 +68,40 @@
     </div>
   </section>
 
+  <section class="mainbanner mobile">
+    <div class="container">
+      <div class="textarea">
+        <h1 class="aos-item" data-aos="fade-down">
+          반갑습니다!<br>
+          ○○○○한 UI/UX를 만드는<br>
+          디자이너 박주혜입니다
+        </h1>
+        <p class="aos-item" data-aos="fade-down">
+          좋아서 시작했던 웹디자인이었지만,<br>
+          어느덧 신념이 생기며<br>
+          좋아 하는 웹을 디자인하고 있습니다.
+        </p>
+      </div>
+      <div class="imagearea">
+        <img src="images/index/mainbanner_object1.png" alt="">
+      </div>
+      <div class="scrolldown_m">
+        <img src="images/index/scrolldown_m.svg" alt="">
+      </div>
+    </div>
+  </section>
+
+
   <!-- 텍스트 모션 -->
-  <h1 class="deco-text" id='deco-text1'>
-    오피셜|Official 영감|Inspirite 열정|Passion 연결|Contact
+  <h1 class="deco-text desktop" id='deco-text1'>
+    연골 cartilage | 영감 Inspirite | 열정 Passion | 연결 Contact
   </h1>
 
+
   <!-- 2section -->
-  <section class="official section">
+  <section class="official desktop">
     <div class="container">
+
       <div class="textarea">
         <div class="tagline aos-item" data-aos="fade-down">
           <p>01. ●○○○</p>
@@ -98,11 +124,40 @@
     </div>
   </section>
 
+  <section class="official mobile">
+    <div class="container">
+      <h1 class="deco-text mobile" id='deco-text1-1'>
+        연골 cartilage | 영감 Inspirite | 열정 Passion | 연결 Contact
+      </h1>
+      <div class="imagearea">
+        <img src="images/index/official_object.svg" alt="">
+      </div>
+      <div class="textarea">
+        <div class="tagline aos-item" data-aos="fade-down">
+          <p>01. ●○○○</p>
+        </div>
+        <h1 class="aos-item" data-aos="fade-down">
+          연골이 있는 디자이너 :<br>
+          그리드와 가이드
+        </h1>
+        <p class="aos-item" data-aos="fade-down">
+          연골이 있어야 뼈와 근육을 붙들어 주어 중요하듯,<br>
+          디자인을 할때는 전체를 붙들어주는 가이드가<br>
+          중요하다고 생각합니다.<br>
+          그리드 시스템으로 홈페이지가 정돈되도록 합니다.<br>
+          작업전 정확한 가이드 정의로 홈페이지 전체에서<br>
+          통일되고 정돈된 디자인이 나타나도록 합니다.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
   <!-- 3section -->
-  <section class="inspirite section">
+  <section class="inspirite desktop">
     <div class="container">
       <div class="textarea">
-        <div class="tagline aos-item" data-aos="fade-down"">
+        <div class="tagline aos-item" data-aos="fade-down">
             <p>02. ○●○○</p>
           </div>
           <h1 class=" aos-item" data-aos="fade-down">
@@ -110,11 +165,34 @@
           다양한 경험과 관심분야
           </h1>
           <p class="aos-item" data-aos="fade-down">
-            경력을 쌓는다는 것은 정글짐과 같아서 창의적으로<br>
-            여러 가지 길을 탐색할 수 있다는 것입니다.<br> 단 하나의 길만
-            존재하는 것이 아니라 여러 가지의 길이 존재합니다.<br>
-            예상치 못한 상황에서 돌아갈 수 도 있는 것이고 이러면서 생각한 것 보다<br>
-            다양한 경험과 사람들을 만나게 되면서 자신의 능력을 키울 수 있다는 것입니다.
+            매일아침 30분씩 진행했던 6개월간의 레퍼런스 서치 훈련은<br>
+            트렌드를 읽을 수 있는 영감을 주었습니다.<br>
+            즐겨하는 라이딩과 등산은 모니터 속 얻을 수 없는 다양한 경험으로<br>
+            영감을 줍니다. 이로써 저는 더 다채롭고 다양한<br>
+            시선을 가집니다.
+          </p>
+        </div>
+        <div class="imagearea">
+          <img src="images/index/inspirite_object.svg" alt="">
+        </div>
+      </div>
+  </section>
+  <section class="inspirite mobile">
+    <div class="container">
+      <div class="textarea">
+        <div class="tagline aos-item" data-aos="fade-down">
+            <p>02. ○●○○</p>
+          </div>
+          <h1 class=" aos-item" data-aos="fade-down">
+          영감 있는 : <br>
+          다양한 경험과 관심분야
+          </h1>
+          <p class="aos-item" data-aos="fade-down">
+            매일아침 30분씩 진행했던 6개월간의 레퍼런스<br>
+            서치 훈련은 트렌드를 읽을 수 있는 영감을<br>
+            주었습니다. 즐겨하는 라이딩과 등산은 모니터 속<br>
+            얻을 수 없는 다양한 경험으로 영감을 줍니다.<br>
+            이로써 저는 더 다채롭고 다양한 시선을 가집니다.
           </p>
         </div>
         <div class="imagearea">
@@ -125,10 +203,10 @@
 
 
   <!-- 4section -->
-  <section class="passion section">
+  <section class="passion desktop">
     <div class="container">
       <div class="textarea">
-        <div class="tagline aos-item" data-aos="fade-down"">
+        <div class="tagline aos-item" data-aos="fade-down">
             <p>03. ○○●○</p>
           </div>
           <h1 class=" aos-item" data-aos="fade-down">
@@ -136,8 +214,32 @@
           좋아하는 것들, 좋아하는 일들
           </h1>
           <p class="aos-item" data-aos="fade-down">
-            언제까지 일할 수 있을까 고민할 필요 없지 싶다.
-            나무처럼 묵묵하게, 좋아하는 일을 재미있게 실컷 하면 되겠지 싶다.
+            저는 제 일을 좋아합니다. 좋아하니까 즐기게 되고, 더 잘하고 싶어집니다.<br>
+            그러다보니 꾸준히 공부하게 되고, 발전해 나가고자 합니다.<br>
+            목표를 향해 나아가는 의지, 끊임없이 솟아오르는 영감, 그리고 탄탄한 기본을 지키는 모습까지,<br>
+            모두 제가 가진 장점이라 생각합니다.
+          </p>
+        </div>
+        <div class="imagearea">
+          <img src="images/index/passion_object.svg" alt="">
+        </div>
+      </div>
+  </section>
+  <section class="passion mobile">
+    <div class="container">
+      <div class="textarea">
+        <div class="tagline aos-item" data-aos="fade-down">
+            <p>03. ○○●○</p>
+          </div>
+          <h1 class=" aos-item" data-aos="fade-down">
+          열정 있는 :<br>
+          좋아하는 것, 좋아하는 일
+          </h1>
+          <p class="aos-item" data-aos="fade-down">
+            저는 제 일을 좋아합니다. 좋아하니까 즐기게 되고, 더 잘하고 싶어집니다.<br>
+            그러다보니 꾸준히 공부하게 되고, 발전해 나가고자 합니다.<br>
+            목표를 향해 나아가는 의지, 끊임없이 솟아오르는 영감, 그리고 탄탄한 기본을 지키는 모습까지,<br>
+            모두 제가 가진 장점이라 생각합니다.
           </p>
         </div>
         <div class="imagearea">
@@ -148,22 +250,45 @@
 
 
   <!-- 5section -->
-  <section class="contact section">
+  <section class="contact desktop">
     <div class="container">
       <div class="textarea">
-        <div class="tagline aos-item" data-aos="fade-down"">
+        <div class="tagline aos-item" data-aos="fade-down">
             <p>04. ○○○●</p>
           </div>
-          <h1 class=" aos-item" data-aos="fade-down">
+          <h1 class="aos-item" data-aos="fade-down">
           연결 하는 :<br>
           Brand와 사용자를 이어줍니다
           </h1>
           <p class="aos-item" data-aos="fade-down">
-            연골이 있어야 뼈와 근육을 붙들어 주어 중요하듯,<br>
-            디자인을 할때는 전체를 붙들어주는 가이드가 중요하다고 생각합니다.<br>
-            때문에 체계적인 디자인 가이드를 토대로 디자인을 하며, 그리드 시스템으로<br>
-            와이드한 홈페이지더라도 정돈되어 보이도록 합니다.<br>
-            작업전 정확한 가이드 정의로 홈페이지 전체에서 통일되고 정돈된 디자인이 나타나도록 합니다.
+            브랜드 경험을 만듭니다.<br>
+            브랜드는 전반에 걸쳐 일반적인 용어로 일관성이 있어야 합니다.<br>
+            키워드가 드러나는 모티브를 도출하여 디자인에 적용합니다.<br>
+            BX의 개념의 유무는 유저경험에 큰 차이를 둡니다.
+          </p>
+        </div>
+        <div class="imagearea">
+          <img src="images/index/contact_object.svg" alt="">
+        </div>
+      </div>
+  </section>
+
+  <section class="contact mobile">
+    <div class="container">
+      <div class="textarea">
+        <div class="tagline aos-item" data-aos="fade-down">
+            <p>04. ○○○●</p>
+          </div>
+          <h1 class="aos-item" data-aos="fade-down">
+          연결 하는 :<br>
+          Brand와 사용자를 이어줌
+          </h1>
+          <p class="aos-item" data-aos="fade-down">
+            브랜드 경험을 만듭니다.<br>
+            브랜드는 전반에 걸쳐 일반적인 용어로<br>
+            일관성이 있어야 합니다. 키워드가 드러나는<br>
+            모티브를 도출하여 디자인에 적용합니다.<br>
+            BX의 개념의 유무는 유저경험에 큰 차이를 둡니다.
           </p>
         </div>
         <div class="imagearea">
@@ -173,10 +298,11 @@
   </section>
 
   <!-- 소개 -->
-  <section class="about">
+  <section class="about desktop">
     <div class="container">
       <div class="tittlearea">
-        <h1 class="aos-item" data-aos="fade-down">○한 UI/UX를 만드는<br>
+        <h1 class="aos-item" data-aos="fade-down">
+          ○한 UI/UX를 만드는<br>
           디자이너 박주혜입니다
         </h1>
       </div>
@@ -201,10 +327,40 @@
 
     </div>
   </section>
+  <section class="about mobile">
+    <div class="container">
+      <div class="tittlearea">
+        <h1 class="aos-item" data-aos="fade-down">
+          ○한 UI/UX를 만드는<br>
+          디자이너 박주혜입니다
+        </h1>
+      </div>
+      <div class="imagearea">
+        <img src="images/index/m_about_1.png" alt="" class="aos-item" data-aos="fade-down">
+      </div>
+      <div class="bodyarea">
+        <p class="aos-item" data-aos="fade-down">
+          BX를 생각하며 디자인을 합니다.<br>
+          브랜드는 전체에 녹아있어 경험을 이끌어 가야 합니다<br>
+          웹사이트는 브랜드를 가장 잘 보여주는 첫 화면입니다<br><br>
+          저는 제 일을 좋아합니다. 좋아하니까 즐기게 되고<br>
+          더 잘하고 싶어집니다. 그러다보니 꾸준히 공부하게<br>
+          되고, 발전해 나가고자 합니다. 목표를 향해 나아가는<br>
+          의지, 끊임없이 솟아오르는 영감, 그리고 탄탄한<br>
+          기본을 지키는 모습까지,<br>
+          모두 제가 가진 장점이라 생각합니다.<br><br>
+          좋아하는 일을 즐기면서 잘하는 것, <br>
+          제가 꿈꾸는 저의 모습입니다.
+        </p>
+        <img src="images/index/about_2.png" alt="" class="aos-item" data-aos="fade-down">
+      </div>
+
+    </div>
+  </section>
 
 
   <!-- 포트폴리오 -->
-  <section class="portfolio">
+  <section class="portfolio desktop">
     <div class="container">
       <div class="tittlearea">
         <h1 class="aos-item" data-aos="fade-down">제가 했던 프로젝트들은요,</h1>
@@ -227,19 +383,19 @@
       </div>
       <div class="bodyarea">
         <div class="row aos-item" data-aos="fade-down">
-          <a href="#"><img src="images/index/portfolio_1.png" alt="webportfolio"></a>
-          <a href="#"><img src="images/index/portfolio_2.png" alt="webportfolio"></a>
-          <a href="#"><img src="images/index/portfolio_3.png" alt="webportfolio"></a>
+          <a href="portfolio-mirajet.html" target="_blank"><img src="images/index/portfolio_1.png" alt="webportfolio"></a>
+          <img src="images/index/portfolio_2.png" alt="webportfolio">
+          <a href="portfolio-guidebon.html" target="_blank"><img src="images/index/portfolio_3.png" alt="webportfolio"></a>
         </div>
         <div class="row aos-item" data-aos="fade-down">
-          <a href="#"><img src="images/index/portfolio_4.png" alt="webportfolio"></a>
-          <a href="#"><img src="images/index/portfolio_5.png" alt="webportfolio"></a>
-          <a href="#"><img src="images/index/portfolio_6.png" alt="webportfolio"></a>
+          <a href="portfolio-tapit.html" target="_blank"><img src="images/index/portfolio_4.png" alt="webportfolio"></a>
+          <a href="portfolio-hyewha.html" target="_blank"><img src="images/index/portfolio_5.png" alt="webportfolio"></a>
+          <a href="portfolio-dongtan.html" target="_blank"><img src="images/index/portfolio_6.png" alt="webportfolio"></a>
         </div>
         <div class="row aos-item" data-aos="fade-down">
-          <a href="#"><img src="images/index/portfolio_7.png" alt="webportfolio"></a>
-          <a href="#"><img src="images/index/portfolio_8.png" alt="webportfolio"></a>
-          <a href="#"><img src="images/index/portfolio_9.png" alt="webportfolio"></a>
+          <img src="images/index/portfolio_7.png" alt="webportfolio">
+          <a href="portfolio-pren.html" target="_blank"><img src="images/index/portfolio_8.png" alt="webportfolio"></a>
+          <a href="portfolio-cherish.html" target="_blank"><img src="images/index/portfolio_9.png" alt="webportfolio"></a>
         </div>
         <div class="dots">
           <img src="images/index/dot.svg" alt="">
@@ -251,9 +407,39 @@
     </div>
   </section>
 
+  <section class="portfolio mobile">
+    <div class="container">
+      <div class="tittlearea">
+        <h1 class="aos-item" data-aos="fade-down">제가 했던 프로젝트들은요,</h1>
+      </div>
+      <div class="imagearea aos-item" data-aos="fade-down">
+        <img src="images/index/m_portfolio_logo.svg" alt="">
+      </div>
+      <div class="bodyarea">
+        <div class="row aos-item" data-aos="fade-down">
+          <a href="portfolio-mirajet.html"><img src="images/index/m_portfolio_1.png" alt="webportfolio"></a>
+          <a href="portfolio-guidebon.html"><img src="images/index/m_portfolio_2.png" alt="webportfolio"></a>
+          <a href="portfolio-guidebon.html"><img src="images/index/m_portfolio_3.png" alt="webportfolio"></a>
+        </div>
+        <div class="row aos-item" data-aos="fade-down">
+          <a href="portfolio-tapit.html"><img src="images/index/m_portfolio_4.png" alt="webportfolio"></a>
+          <a href="portfolio-hyewha.html"><img src="images/index/m_portfolio_5.png" alt="webportfolio"></a>
+          <a href="portfolio-dongtan.html"><img src="images/index/m_portfolio_6.png" alt="webportfolio"></a>
+        </div>
+        <div class="row aos-item" data-aos="fade-down">
+          <a href="#"><img src="images/index/m_portfolio_7.png" alt="webportfolio"></a>
+          <a href="portfolio-pren.html"><img src="images/index/m_portfolio_8.png" alt="webportfolio"></a>
+          <a href="portfolio-cherish.html"><img src="images/index/m_portfolio_9.png" alt="webportfolio"></a>
+        </div>
+        <div class="dots">
+          <img src="images/index/dot.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- 이력서 -->
-  <section class="resume">
+  <section class="resume desktop">
     <!-- 텍스트 모션 -->
     <h1 class="deco-text" id="deco-text2">
       함께 일할 멋진 디자이너를 찾고 계신가요?
@@ -261,18 +447,18 @@
     <div class="container">
       <div class="tittlearea aos-item" data-aos="fade-down">
         <h1>이럴 때 제가 딱<br>
-          어울릴 것 같아요</h1>
+          어울릴 것 같아요 😎 </h1>
       </div>
       <div class="line">
 
       </div>
       <div class="body aos-item" data-aos="fade-down">
-        <p>· 역량과 경험을 갖춘 웹 디자이너가 필요할 때<br>
-          · 책임감 있고 함께 일할 때 시너지를 주는 팀원이 필요할 때<br>
-          · 성장하지만 겸손을 잃지 않는 사람이 필요할 때<br>
-          · 좋아하는 일을 잘하는 사람이 필요할 때
+        <p>💨 역량과 경험을 갖춘 웹 디자이너가 필요할 때<br>
+          💨 책임감 있고 함께 일할 때 시너지를 주는 팀원이 필요할 때<br>
+          💨 성장하지만 겸손을 잃지 않는 사람이 필요할 때<br>
+          💨 좋아하는 일을 잘하는 사람이 필요할 때
         </p>
-        <a href="#">
+        <a href="https://lapis-shop-a29.notion.site/UI-UX-Designer-Resume-76e25ce2ecac4985911d8cb14684df0c" target="_blank">
           <div class="button">
             <p>이력서 (링크)</p>
           </div>
@@ -283,9 +469,37 @@
     </div>
   </section>
 
+  <section class="resume mobile">
+    <!-- 텍스트 모션 -->
+    <h1 class="deco-text" id="deco-text2-2">
+      함께 일할 멋진<br>디자이너를 찾고 계신가요?
+    </h1>
+    <div class="container">
+      <div class="tittlearea aos-item" data-aos="fade-down">
+        <h1>이럴 때 제가 딱<br>
+          어울릴 것 같아요 😎 </h1>
+      </div>
+
+      </div>
+      <div class="body aos-item" data-aos="fade-down">
+        <p class="resume-body-p">✅ 역량과 경험을 갖춘 웹 디자이너가 필요할 때</p>
+        <p class="resume-body-p">✅ 책임감 있고 함께 일할 때 시너지를 주는<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;팀원이 필요할 때</p>
+        <p class="resume-body-p">✅ 성장하지만 겸손을 잃지 않는 사람이 필요할 때</p>
+        <p class="resume-body-p">✅ 좋아하는 일을 잘하는 사람이 필요할 때</p>
+        </p>
+        <a href="https://lapis-shop-a29.notion.site/UI-UX-Designer-Resume-76e25ce2ecac4985911d8cb14684df0c">
+          <div class="button">
+            <p>이력서 (링크)</p>
+          </div>
+        </a>
+
+      </div>
+
+    </div>
+  </section>
 
   <!-- 푸터 -->
-  <footer>
+  <footer class="desktop">
     <div class="container">
       <div class="imagearea">
         <img src="images/index/footer_logo.svg" alt="">
@@ -300,7 +514,21 @@
 
     </div>
   </footer>
+  <footer class="mobile">
+    <div class="container">
+      <div class="imagearea">
+        <img src="images/index/footer_logo.svg" alt="">
+      </div>
+      <div class="textarea">
+        <p>함께 나누고 싶은 얘기가 있으시다면,</p>
+        <a href="https://mail.google.com/mail/u/0/?fs=1&to=idispjh@naver.com&tf=cm">
+          <h1>idispjh@naver.com</h1>
+        </a>
+        <p>어떤 내용이여도 좋아요!  <br>메일을 보내주시면평일 3일 내로 답장을 드릴게요!</p>
+      </div>
 
+    </div>
+  </footer>
   <!-- 제이쿼리 -->
   <script src="plugins/jQuery/jquery.min.js"></script>
   <!-- 슬라이더 -->
